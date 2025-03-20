@@ -33,6 +33,7 @@ public class SaucedemoLoginPage extends AbstractPage {
 
     public void openPage() {
         driver.get("https://www.saucedemo.com/");       // opens the login page URL in the browser
+        wait.until(ExpectedConditions.visibilityOf(usernameField));   //wait until page was loaded
     }
 
     public void enterUsername(String username) {

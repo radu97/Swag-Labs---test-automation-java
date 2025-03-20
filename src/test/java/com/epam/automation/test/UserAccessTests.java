@@ -66,7 +66,6 @@ public class UserAccessTests extends CommonConditions {
             logger.info("{} UC-3: Login successful ({}) but title does not match!", browserName, username);
             throw new LoginException(browserName + " UC-3: Login successful but title does not match!");
         }
-
     }
 
     //data provider for invalid credentials tests (UC-1 and UC-2)
