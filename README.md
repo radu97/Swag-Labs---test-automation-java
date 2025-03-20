@@ -46,9 +46,7 @@ resources
    ```sh
    git clone https://github.com/your-repo/saucedemo-automation.git
    ```
-2. Install dependencies.
-   ```sh
-   mvn clean install
+2. Import the project in IntelliJ.
    ```
 
 ## 4. Running Tests
@@ -73,7 +71,8 @@ Right-click on `testng.xml` file → Click **Run**
 - Validate successful login by checking the page title "Swag Labs"
 
 There are 14 tests in total: one UC-1 test, one UC-2 test and five UC-3 tests (5 users), all running in Chrome and Firefox browsers (7*2=14 tests).
-`testng.xml` file provides parallel test execution.
+Two tests fail (one in each browser) because the user is locked out. The remaining twelve tests are successful (six in each browser).
+The testng.xml file enables parallel test execution.
 
 ## 6. WebDriver Singleton with ThreadLocal
 The Singleton WebDriver instance uses **ThreadLocal**. This ensures that each thread gets its own instance of WebDriver while maintaining a singleton-like structure.
