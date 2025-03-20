@@ -1,0 +1,211 @@
+2025-03-20 16:01:54 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Radu\Desktop\saucedemo\src\test\resources\testng.xml
+
+2025-03-20 16:01:56 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:01:56 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 16:01:56 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:01:58 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:01:58 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-2 test successful: a missing password error message was displayed
+2025-03-20 16:01:58 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:01:58 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:01:59 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 16:01:59 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:01:59 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:02:00 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 16:02:00 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:02:01 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:02:03 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:02:03 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-2 test successful: a missing password error message was displayed
+2025-03-20 16:02:04 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:02:07 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 16:02:07 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:02:07 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:02:08 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 16:02:08 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:02:08 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 16:02:08 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:02:08 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:02:10 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:02:12 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:02:15 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 16:02:15 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:02:16 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:02:17 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 16:02:17 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:02:17 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 16:02:18 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:02:21 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:02:21 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 16:02:22 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:02:25 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:02:30 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 16:02:31 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:02:34 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:02:35 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 16:02:35 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:52:54 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Radu\Desktop\saucedemo\src\test\resources\testng.xml
+
+2025-03-20 16:52:56 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:52:58 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:53:02 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:53:03 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:53:04 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:53:08 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:53:09 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:53:10 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:53:13 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:53:15 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:53:16 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:53:17 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:53:22 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:53:22 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:53:23 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:53:26 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:53:29 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:53:30 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:53:31 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:53:34 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:53:35 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:53:37 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:53:40 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:53:42 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:53:44 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:53:50 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:53:53 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:53:59 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:57:36 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Radu\Desktop\saucedemo\src\test\resources\testng.xml
+
+2025-03-20 16:57:38 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:57:38 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 16:57:39 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:57:40 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:57:41 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 16:57:41 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:57:41 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-2 test successful: a missing password error message was displayed
+2025-03-20 16:57:41 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:57:41 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:57:43 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:57:43 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 16:57:43 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:57:44 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:57:45 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:57:45 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-2 test successful: a missing password error message was displayed
+2025-03-20 16:57:46 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:57:50 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:57:50 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 16:57:50 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:57:50 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 16:57:51 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:57:51 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:57:51 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 16:57:52 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:57:53 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:57:54 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:57:58 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 16:57:58 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:58:00 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 16:58:00 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 16:58:00 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 16:58:00 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 16:58:01 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:58:04 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:58:04 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 16:58:05 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:58:08 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:58:13 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 16:58:14 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 16:58:17 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 16:58:17 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 16:58:18 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:01:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Radu\Desktop\saucedemo\src\test\resources\testng.xml
+
+2025-03-20 17:01:41 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:01:41 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 17:01:41 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:01:42 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:01:43 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-2 test successful: a missing password error message was displayed
+2025-03-20 17:01:43 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:01:44 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:01:44 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 17:01:44 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:01:45 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:01:45 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 17:01:46 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:01:46 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:01:49 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:01:50 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-2 test successful: a missing password error message was displayed
+2025-03-20 17:01:50 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:01:51 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 17:01:51 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:01:53 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:01:53 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 17:01:53 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:01:54 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:01:54 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 17:01:54 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:01:55 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:01:58 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:02:00 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 17:02:00 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:02:01 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:02:01 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 17:02:01 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:02:03 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 17:02:04 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:02:07 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:02:07 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 17:02:08 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:02:11 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:02:16 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 17:02:17 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:02:20 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:02:20 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 17:02:21 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:04:32 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Radu\Desktop\saucedemo\src\test\resources\testng.xml
+
+2025-03-20 17:04:34 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:04:35 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 17:04:35 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:04:36 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:04:36 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:04:36 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-2 test successful: a missing password error message was displayed
+2025-03-20 17:04:37 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:04:37 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-1 test successful: an empty credentials error message was displayed
+2025-03-20 17:04:38 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:04:38 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:04:38 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 17:04:38 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:04:39 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:04:42 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:04:42 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-2 test successful: a missing password error message was displayed
+2025-03-20 17:04:43 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:04:45 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 17:04:45 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:04:46 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:04:46 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:04:47 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 17:04:47 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:04:47 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (standard_user)
+2025-03-20 17:04:48 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:04:48 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:04:51 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:04:53 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 17:04:54 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:04:55 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
+2025-03-20 17:04:55 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 17:04:55 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome driver quit
+2025-03-20 17:04:57 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3: login failed (locked_out_user) with error message: Epic sadface: Sorry, this user has been locked out.
+2025-03-20 17:04:57 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:05:01 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:05:01 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (problem_user)
+2025-03-20 17:05:02 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:05:05 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:05:10 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (performance_glitch_user)
+2025-03-20 17:05:11 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
+2025-03-20 17:05:14 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox tests started
+2025-03-20 17:05:14 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox UC-3 test successful: login with correct credentials (visual_user)
+2025-03-20 17:05:15 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - firefox driver quit
