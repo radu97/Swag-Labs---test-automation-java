@@ -47,7 +47,6 @@ resources
    git clone https://github.com/your-repo/saucedemo-automation.git
    ```
 2. Import the project in IntelliJ.
-   ```
 
 ## 4. Running Tests
 
