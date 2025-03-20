@@ -44,7 +44,7 @@ resources
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/saucedemo-automation.git
+   git clone https://github.com/radu97/Swag-Labs---test-automation-java
    ```
 2. Import the project in IntelliJ.
 
