@@ -5,11 +5,16 @@ import com.epam.automation.page.SaucedemoLoginPage;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 
 // base test class containing setup and teardown methods
 public class CommonConditions {
+
+    public static final String TESTS_STARTED = "{} tests started";
+    public static final String DRIVER_QUIT = "{} driver quit";
 
     protected WebDriver driver;        // WebDriver instance
     protected static final Logger logger = LoggerFactory.getLogger(CommonConditions.class);   // Logger instance
@@ -23,12 +28,12 @@ public class CommonConditions {
         loginPage = new SaucedemoLoginPage(driver);
         loginPage.openPage();
         browserName = browser;
-        logger.info("{} tests started", browserName);
+        logger.info(TESTS_STARTED, browserName);
     }
 
     @AfterMethod(alwaysRun = true)       // runs once after all test methods in the class
     public void tearDown() {     //quits the WebDriver and logs a final message
         DriverSingleton.quitDriver();
-        logger.info("{} driver quit", browserName);
+        logger.info(DRIVER_QUIT, browserName);
     }
 }

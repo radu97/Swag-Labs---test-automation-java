@@ -1,38 +1,37 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Ignore Maven or Gradle build directories
+/target/
+/build/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+# Ignore Eclipse and IntelliJ project files
+/.idea/
+/*.iml
+/.project
+/.classpath
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Ignore logs
+/logs/
+/*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# Ignore OS generated files
 .DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore configuration files specific to your IDE
+/.vscode/
+
+# Ignore WebDriver manager files
+/.wdm/
+
+# Ignore JUnit reports and test output
+/test-output/
+
+# Ignore IntelliJ runtime folder
+.idea_modules/
+
+# Ignore local environment settings
+.env

@@ -1,5 +1,6 @@
 package com.epam.automation.page;
 
+import com.epam.automation.service.ConfigReader;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,7 +33,7 @@ public class SaucedemoLoginPage extends AbstractPage {
     }
 
     public void openPage() {
-        driver.get("https://www.saucedemo.com/");       // opens the login page URL in the browser
+        driver.get(ConfigReader.getProperty("base.url"));           // opens the login page URL in the browser "https://www.saucedemo.com/"
         wait.until(ExpectedConditions.visibilityOf(usernameField));   //wait until page was loaded
     }
 
