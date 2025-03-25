@@ -716,7 +716,7 @@
 2025-03-25 20:16:25 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - null driver quit
 2025-03-25 20:16:25 [TestNG-tests-2] INFO  c.e.automation.test.CommonConditions - null driver quit
 2025-03-25 20:17:21 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Radu\Desktop\saucedemo\resources\testng.xml////
+  C:\Users\Radu\Desktop\saucedemo\resources\testng.xml///
 
 2025-03-25 20:17:23 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome tests started
 2025-03-25 20:17:24 [TestNG-tests-1] INFO  c.e.automation.test.CommonConditions - chrome UC-1 test successful: an empty credentials error message was displayed
