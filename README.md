@@ -28,7 +28,7 @@ saucedemo
 │	│   │   │   │   ├── AbstractPage.java          # Base class for page objects
 │	│   │   │   │   ├── SaucedemoLoginPage.java    # Page Object Model for SauceDemo login
 │	│   │   │   ├── service
-│	│   │   │   │   ├── ConfigReader.java
+│	│   │   │   │   ├── ConfigReader.java          # Used to read configuration parameters from config.propertiers file
 │	├── test
 │		├── java
 │			├── com/epam/automation
