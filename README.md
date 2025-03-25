@@ -15,20 +15,30 @@ This project is a Selenium-based test automation framework for testing login fun
 ## 2. Project Structure
 
 ```
-test/java
-├── com.epam.automation
-│   ├── driver
-│   │   ├── DriverSingleton.java    # Singleton WebDriver management with ThreadLocal to ensure WebDriver is thread-safe in parallel test execution
-│   ├── page
-│   │   ├── AbstractPage.java       # Base class for page objects
-│   │   ├── LoginException.java     # Custom exception for login failures
-│   │   ├── SaucedemoLoginPage.java # Page Object Model for SauceDemo login
-│   ├── test
-│   │   ├── UserAccessTests.java    # Test cases for login functionality
-│   │   ├── CommonConditions.java   # Base test setup and teardown
-resources
-├── logback.xml   # Logging configuration
-├── testng.xml    # Parallel test execution setup
+saucedemo
+├──src
+│	├── main
+│	│   ├── java
+│	│   │   ├── com/epam/automation
+│	│   │   │   ├── driver
+│	│   │   │   │   ├── DriverSingleton.java       # Singleton WebDriver management with ThreadLocal to ensure WebDriver is thread-safe in parallel test execution
+│	│   │   │   ├── exception
+│	│   │   │   │   ├── LoginException.java        # Custom exception for login failures
+│	│   │   │   ├── page
+│	│   │   │   │   ├── AbstractPage.java          # Base class for page objects
+│	│   │   │   │   ├── SaucedemoLoginPage.java    # Page Object Model for SauceDemo login
+│	│   │   │   ├── service
+│	│   │   │   │   ├── ConfigReader.java
+│	├── test
+│		├── java
+│			├── com/epam/automation
+│				├── test
+│					├── CommonConditions.java      # Base test setup and teardown
+│					├── UserAccessTests.java       # Test cases for login functionality
+├──resources
+	├── logback.xml                        		   # Logging configuration
+	├── testng.xml                         		   # Parallel test execution setup
+	└── config.properties		       			   # Stores page url, browser type, default username and password
 ```
 
 ## 3. Installation & Setup
@@ -44,9 +54,12 @@ resources
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/radu97/Swag-Labs---test-automation-java
+   git clone https://github.com/your-repo/saucedemo-automation.git
    ```
-2. Import the project in IntelliJ.
+2. Install dependencies.
+   ```sh
+   mvn clean install
+   ```
 
 ## 4. Running Tests
 
@@ -70,8 +83,7 @@ Right-click on `testng.xml` file → Click **Run**
 - Validate successful login by checking the page title "Swag Labs"
 
 There are 14 tests in total: one UC-1 test, one UC-2 test and five UC-3 tests (5 users), all running in Chrome and Firefox browsers (7*2=14 tests).
-Two tests fail (one in each browser) because the user is locked out. The remaining twelve tests are successful (six in each browser).
-The testng.xml file enables parallel test execution.
+`testng.xml` file provides parallel test execution.
 
 ## 6. WebDriver Singleton with ThreadLocal
 The Singleton WebDriver instance uses **ThreadLocal**. This ensures that each thread gets its own instance of WebDriver while maintaining a singleton-like structure.
